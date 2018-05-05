@@ -22,6 +22,9 @@ github_username: cendrine-b
 instagram_username: cendrine.graphic
 linkedin_username: cendrine-buisson
 
+# Project URL
+permalink: /:title/
+
 # Build settings
 markdown: kramdown
 plugins:
