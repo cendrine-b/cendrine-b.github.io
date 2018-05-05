@@ -18,8 +18,9 @@ email: hello@cendrinebuisson.com
 description: Personal graphic designer & developer portfolio.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "cendrine-b.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username:
 github_username: cendrine-b
+instagram_username: cendrine.graphic
+linkedin_username: cendrine-buisson
 
 # Build settings
 markdown: kramdown
