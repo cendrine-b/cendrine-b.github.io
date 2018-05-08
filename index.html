@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<h1>A WILD TITLE APPEARED!</h1>
+
+<div class="home">
+  <ul class="post-list">
+    {% for post in site.posts %}
+    <li>
+      <img src="{{ post.thumbnail }}" alt="{{ post.thumbalt }}" />
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
+          {{ post.title }}
+        </a>
+      </h2>
+      <span>{{ post.caption }}</span>
+    </li>
+    {%- endfor -%}
+  </ul>
+</div>
