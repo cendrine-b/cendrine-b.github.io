@@ -23,7 +23,7 @@ instagram_username: cendrine.graphic
 linkedin_username: cendrine-buisson
 
 # Project URL
-permalink: /:title/
+permalink: projects/:title/
 
 # Build settings
 markdown: kramdown
